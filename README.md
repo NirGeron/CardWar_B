@@ -1,31 +1,10 @@
-<div dir="rtl" lang="he">
-
-# מלחמה
-במטלה זו נממש את משחק הקלפים מלחמה עבור שני שחקנים. 
-יש חפיסת קלפים רגיל עם 52 קלפים בתחילת המשחק החפיסה מעורבבת (בצורה ראנדומאלית) ומחולקת שווה בשווה בין שני השחקנים.
-בכל תור השחקנים שולפים קלף אחד מראש הערימה שלהם השחקן עם הקלף הגבוהה ביותר לוקח את שני הקלפים אליו (2 מנצח אס).
-אם השחקנים שלפו שני קלפים זהים אז הם מניחים קלף אחד הפוך ומעליו קלף פחות. השחק עם הקלף הגבוהה לוקח את כל ששת הקלפים. במידה ושוב יש תיקו ממשיכים עם קלף סגור ואחריו קלף פתוח עד שאחד השחקנים מנצח. התור נמשך עד שאחד השחקנים לוקח את הקופה או שנגמרים הקלפים. 
-אם נגמרים הקלפים תוך כדי השובר שיוויון כל שחקן לוקח את הקלפים שהוא זרק (מתחלקים בקופה חצי חצי).
-המשחק נמשך עד שנגמרים לשחקנים הקלפים והמנצח הוא השחקן שלקח לעצמו את מירב הקלפים. 
-
-דוגמאות לפעולת המחלקה ניתן למצוא ב-[Demo.cpp](Demo.cpp).
-
-בשלב ב עליכם לכתוב את המימוש המלא. מותר לערוך את המימוש של שלב א אבל אם עשיתם עבודה טובה לא יהיה בכך צורך.
-יעלו טסטים נבחרים של סטודנטים. עליכם לעבור את כל הטסטים בציון 100. המטלה תיבדר ע"י הרצת
-
-כיתבו את כל הקבצים הדרושים כך שהפקודות הבאות יעבדו ללא שגיאות:
-
-<div dir='ltr'>
-
-    bash grade
-
-</div>
 
 
-שימו לב:
-אין לשנות קבצים קיימים, אלא רק להוסיף קבצים חדשים.
-מערכת הבדיקה האוטומטית מעתיקה מחדש את כל הקבצים הקיימים על-גבי הפתרון שאתם מגישים,
-ולכן כל שינוי שתעשו בקבצים הקיימים יימחק.
+![cardwar](https://bargames101.com/wp-content/uploads/2020/08/How-to-Play-War-Card-Game-2.jpg)
+# About Card War
+Card war is a simple two-player card game that is often played by children. The objective of the game is to win all of the cards in the deck.
 
-בהצלחה
-</div>
+To play the game, the deck is shuffled and then divided evenly between the two players. Each player holds their cards face down in a stack, and then each player simultaneously reveals the top card from their stack. The player with the higher card wins the round and takes both cards, placing them face down at the bottom of their stack.
+
+If both players reveal cards of the same rank, then a "war" occurs. In a war, both players place the next three cards from their stack face down on the table, and then reveal the fourth card. The player with the higher fourth card wins all of the cards on the table, including the cards that were used to start the war. If the fourth card is also tied, then another war occurs until one player has a higher card.
+
